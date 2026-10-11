@@ -23,20 +23,20 @@
 //}
 
 
-class Book (val a: Int, val b: Int ){
-    init {
-        println("The sum of a and is shows below:")
-    }
-    fun print() {
-        val c = a+b
-        println("Value of C is : $c")
-    }
-
-}
-
-fun main() {
-    val book1 = Book(100,250)
-    val book2 = Book(50,70)
-    println(book1.print())
-    println(book2.print())
-}
+// class Book (val a: Int, val b: Int ){
+//    init {
+//        println("The sum of a and is shows below:")
+//    }
+//    fun print() {
+//        val c = a+b
+//        println("Value of C is : $c")
+//    }
+//
+//}
+//
+//fun main() {
+//    val book1 = Book(100,250)
+//    val book2 = Book(50,70)
+//    println(book1.print())
+//    println(book2.print())
+//}
