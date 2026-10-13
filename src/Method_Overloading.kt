@@ -28,25 +28,25 @@
 //    car.start()
 //}
 
-open class Animal{
-    open fun sound(){
-        println("Animal makes sound")
-    }
-}
-class Dog : Animal(){
-    override fun sound() {
-        println("Dog barks")
-    }
-}
-class Cat : Animal(){
-    override fun sound() {
-        println("Cat meaos")
-    }
-}
-
-fun main() {
-    val dog = Dog()
-    val cat = Cat()
-    dog.sound()
-    cat.sound()
-}
+//open class Animal{
+//    open fun sound(){
+//        println("Animal makes sound")
+//    }
+//}
+//class Dog : Animal(){
+//    override fun sound() {
+//        println("Dog barks")
+//    }
+//}
+//class Cat : Animal(){
+//    override fun sound() {
+//        println("Cat meaos")
+//    }
+//}
+//
+//fun main() {
+//    val dog = Dog()
+//    val cat = Cat()
+//    dog.sound()
+//    cat.sound()
+//}
